@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">myMapApplication</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bt_start">記録開始</string>
+    <string name="bt_stop">記録終了</string>
+    <string name="bt_history">履歴</string>
+    
+    <string name="bt_return">戻る</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mywalkapplication.MapViewActivity" >
+    <item
+        android:id="@+id/menu_mapview"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_mapview" />
+    <item
+        android:id="@+id/menu_movie_record"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/menu_movie_record"/>
+    <item
+        android:id="@+id/menu_play_save_data"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="300"
+        android:showAsAction="never"
+        android:title="@string/menu_play_save_data"/>
+    <item
+        android:id="@+id/menu_play_movie"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="400"
+        android:showAsAction="never"
+        android:title="@string/menu_play_movie"/>
+    <item
+        android:id="@+id/menu_twitter"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="500"
+        android:showAsAction="never"
+        android:title="@string/menu_twitter"/>
+
+</menu>

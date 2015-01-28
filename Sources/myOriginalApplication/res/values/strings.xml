@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">歩行撮影あぷり</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bt_movie">動画撮影</string>
+    <string name="bt_saved_data_list">保存データ一覧</string>
+    <string name="bt_movie_play">動画再生Only</string>
+    <string name="bt_map_view">マップ確認Only</string>
+    <string name="bt_twitter">Twitter起動</string>
+    
+    <string name="menu_mapview">MAP表示</string>
+    <string name="menu_movie_record">動画撮影＆位置記録</string>
+    <string name="menu_play_save_data">保存データ一覧</string>
+    <string name="menu_play_movie">動画再生Only</string>
+    <string name="menu_twitter">Twitter</string>
+    
+    <string name="bt_twitter_list">TimeLine表示</string>
+    
+    <string name="twitter_oauth">Twitter認証</string>
+    
+    <string name="menu_refresh">更新</string>
+    <string name="menu_tweet">つぶやく</string>
+    
+    <string name="twitter_consumer_key">5UwojnG3QBtSA3StY4JOvjVAK</string>
+    <string name="twitter_consumer_secret">XAKBmM3I4Mgt1lQtICLLKkuCWZzN0nXGe4sJ5qwDhqKK4PtCYd</string>
+    <string name="twitter_callback_url">apidevms://twitter</string>
+
+</resources>

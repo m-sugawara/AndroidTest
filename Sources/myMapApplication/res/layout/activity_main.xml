@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <fragment
+	        android:id="@+id/map"
+	        android:name="com.google.android.gms.maps.SupportMapFragment"
+	        android:layout_width="match_parent"
+	        android:layout_height="325dp" />
+	
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	
+		    <Button
+		        android:id="@+id/bt_start"
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:text="@string/bt_start" />
+		
+		    <Button
+		        android:id="@+id/bt_stop"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/bt_stop" />
+	
+		    <Button
+		        android:id="@+id/bt_history"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/bt_history" />
+	
+	    </LinearLayout>
+	
+	    <TextView
+	        android:id="@+id/tv_message"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:textSize="30sp" />
+	
+	</LinearLayout>

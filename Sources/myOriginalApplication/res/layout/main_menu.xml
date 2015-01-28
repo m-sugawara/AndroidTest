@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+        <Button
+            android:id="@+id/bt_movie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_movie" />
+        
+        <Button
+            android:id="@+id/bt_saved_data_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bt_movie"
+            android:text="@string/bt_saved_data_list" />
+
+        <Button
+            android:id="@+id/bt_movie_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bt_saved_data_list"
+            android:text="@string/bt_movie_play" />
+
+        <Button
+            android:id="@+id/bt_map_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bt_movie_play"
+            android:text="@string/bt_map_view" />
+        
+        <Button
+            android:id="@+id/bt_twitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bt_map_view"
+            android:text="@string/bt_twitter" />
+                
+        <Button
+            android:id="@+id/bt_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bt_twitter"
+            android:text="TEST機能" />
+
+</RelativeLayout>
